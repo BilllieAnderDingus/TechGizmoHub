@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retro Tech Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        .header {
+            background: red;
+            padding: 30px 0;
+            text-align: center;
+            color: black;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: bold;
+            text-shadow: 2px 2px white;
+        }
+
+        /* Navigation */
+        .nav {
+            background: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Banner */
+        .banner {
+            background: #ffcc00;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .banner img {
+            width: 180px;
+        }
+
+        .banner h2 {
+            font-size: 26px;
+            text-align: center;
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        /* Products */
+        .products {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+            background: white;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            width: 200px;
+            text-align: center;
+            padding: 15px;
+            background: #fff;
+        }
+
+        .product img {
+            width: 200px;
+            height: auto;
+        }
+
+        .product h3 {
+            margin: 10px 0 5px;
+        }
+
+        .price {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .buy-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        .buy-btn:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Retro Tech</h1>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="#">Home</a> |
+        <a href="#">Products</a> |
+        <a href="#">Blog</a> |
+        <a href="#">Offers</a> |
+        <a href="#">About</a> |
+        <a href="#">FAQs</a> |
+        <a href="#">Services</a> |
+        <a href="#">Reviews</a> |
+        <a href="#">External Links</a> |
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        <!-- Replace src with your real image files -->
+        <img src="/assets/images/nes.jpg" alt="nes">
+        <h2>Old Tech, New Memories.</h2>
+        <img src="/assets/images/ps1.jpg" alt="PS1">
+    </div>
+
+    <!-- Products -->
+    <div class="products">
+
+        <div class="product">
+            <img src="/assets/images/NGC_Gamecube.webp" alt="Gamecube">
+            <h3>Nintendo Gamecube</h3>
+            <div class="price">£120</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+            <img src="/assets/images/3ds.webp" alt="Nintendo 3DS">
+            <h3>Nintendo 3DS</h3>
+            <div class="price">£150</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+            <img src="/assets/images/wii.jpg" alt="Nintendo Wii">
+            <h3>Nintendo Wii</h3>
+            <div class="price">£65</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+            <img src="/assets/images/SNIN64B002_l.webp" alt="Lenovo V15">
+            <h3>Nintendo 64</h3>
+            <div class="price">£84</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+            <img src="/assets/images/ps2.webp" alt="Asus Vivobook">
+            <h3>PS2</h3>
+            <div class="price">£110</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

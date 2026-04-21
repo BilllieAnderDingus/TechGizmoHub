@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mobiles Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        .header {
+            background: red;
+            padding: 30px 0;
+            text-align: center;
+            color: black;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 48px;
+            font-weight: bold;
+            text-shadow: 2px 2px white;
+        }
+
+        /* Navigation */
+        .nav {
+            background: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 16px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Banner */
+        .banner {
+            background: #ffcc00;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .banner img {
+            width: 180px;
+        }
+
+        .banner h2 {
+            font-size: 26px;
+            text-align: center;
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        /* Products */
+        .products {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+            background: white;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            width: 200px;
+            text-align: center;
+            padding: 15px;
+            background: #fff;
+        }
+
+        .product img {
+            width: 200px;
+            height: auto;
+        }
+
+        .product h3 {
+            margin: 10px 0 5px;
+        }
+
+        .price {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .buy-btn {
+            background: red;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        .buy-btn:hover {
+            background: darkred;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Mobiles</h1>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="#">Home</a> |
+        <a href="#">Products</a> |
+        <a href="#">Blog</a> |
+        <a href="#">Offers</a> |
+        <a href="#">About</a> |
+        <a href="#">FAQs</a> |
+        <a href="#">Services</a> |
+        <a href="#">Reviews</a> |
+        <a href="#">External Links</a> |
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        <!-- Replace src with your real image files -->
+        <img src="/assets/images/iphone16_PNG35.png" alt="Phones">
+        <h2>The Best Mobile Devices for On-The-Go Gaming and Efficient Working</h2>
+        <img src="/assets/images/Apple-iPad-PNG-File.png" alt="Tablet">
+    </div>
+
+    <!-- Products -->
+    <div class="products">
+
+        <div class="product">
+            <img src="/assets/images/Apple-iPhone-17-Pro-Max-Cosmic-Orange-Front-Back-488x488-desktop-WebP-Format-488.webp" alt="iPhone 17">
+            <h3>iPhone 17</h3>
+            <div class="price">£799.99</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+            <img src="/assets/images/7637751_R_SET.jpg" alt="HONOR 400 Lite">
+            <h3>HONOR 400 Lite</h3>
+            <div class="price">£199.99</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+            <img src="/assets/images/10276004.webp" alt="Galaxy S25">
+            <h3>Galaxy S25</h3>
+            <div class="price">£799.99</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+            <img src="/assets/images/xiaomi-17-b.jpg" alt="Xiaomi 17">
+            <h3>XIAOMI 17</h3>
+            <div class="price">£629.99</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+            <img src="/assets/images/nokia.webp" alt="Nokia XR21">
+            <h3>NOKIA XR21</h3>
+            <div class="price">£664.99</div>
+            <button class="buy-btn">BUY</button>
+        </div>
+
+    </div>
+
+</body>
+</html>

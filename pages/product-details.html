@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #dcdcdc;
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* MAIN CONTAINER */
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        /* LEFT SIDE */
+        .left {
+            width: 40%;
+            text-align: center;
+        }
+
+        .product-img {
+            width: 90%;
+            border: 5px solid black;
+        }
+
+        .product-title {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .buy-btn {
+            margin-top: 10px;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: red;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        .buy-btn:hover {
+            background-color: darkred;
+        }
+
+        .extra-info {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        /* RIGHT SIDE */
+        .right {
+            width: 60%;
+            padding-left: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        .stars {
+            color: gold;
+            font-size: 25px;
+        }
+
+        .rating {
+            font-size: 18px;
+            margin-left: 10px;
+        }
+
+        /* FOOTER */
+        .footer {
+            background-color: black;
+            height: 60px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <a href="#">Home</a> |
+        <a href="#">Products</a> |
+        <a href="#">Blog</a> |
+        <a href="#">Offers</a> |
+        <a href="#">About</a> |
+        <a href="#">FAQs</a> |
+        <a href="#">Services</a> |
+        <a href="#">Reviews</a> |
+        <a href="#">External Links</a> |
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+
+        <!-- LEFT -->
+        <div class="left">
+            <img src="/assets/images/3ds.webp" class="product-img">
+
+            <div class="product-title">
+                Nintendo 3DS Console | Metallic Red
+            </div>
+
+            <div class="price">£150</div>
+
+            <button class="buy-btn">BUY</button>
+
+            <div class="extra-info">
+                <p>FREE 5 YEAR WARRANTY</p>
+                <p>IN STOCK ONLINE</p>
+                <p>DELIVERY AVAILABLE</p>
+            </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="right">
+            <h2>Product Description</h2>
+
+            <p>
+                Nintendo 3DS is a ground-breaking hardware release that brings 3D gaming to the handheld market
+                for the first time. The fourth major release in the DS product line, the Nintendo 3DS utilises
+                3D Slider functionality and an improved top LCD display to present a glasses-free 3D effect on
+                compatible games, while giving players the option to moderate the effect as they see fit.
+            </p>
+
+            <p>
+                Additional features include full analogue control, motion and gyro sensors, 3D camera
+                functionality, an adjustable stylus and full backwards compatibility.
+            </p>
+
+            <h2>Specifications</h2>
+
+            <p>Condition: Good</p>
+            <p>Colour: Metallic Red</p>
+            <p>Manufacturer: Nintendo</p>
+            <p>Model: 3DS</p>
+            <p>Included Components: Stylus, Charger</p>
+
+            <div class="stars">
+                ★ ★ ★ ★ ☆
+                <span class="rating">(90)</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer"></div>
+
+</body>
+</html>

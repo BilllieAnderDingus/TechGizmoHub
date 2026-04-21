@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Reviews</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #dcdcdc;
+    }
+
+    /* HEADER */
+    .header {
+        background-color: red;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-size: 50px;
+        font-weight: bold;
+        text-shadow: 2px 2px black;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+        padding: 20px;
+        position: relative;
+    }
+
+    /* REVIEW */
+    .review {
+        margin-bottom: 30px;
+        max-width: 900px;
+    }
+
+    .stars {
+        color: gold;
+        font-size: 22px;
+    }
+
+    .review-title {
+        font-weight: bold;
+        font-size: 20px;
+        margin: 5px 0;
+    }
+
+    .review-text {
+        font-size: 18px;
+    }
+
+    .helpful {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    /* WRITE REVIEW BUTTON */
+    .write-btn {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 50px;
+        padding: 15px 25px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .write-btn:hover {
+        background-color: darkred;
+    }
+
+    /* FOOTER */
+    .footer {
+        background-color: black;
+        height: 60px;
+        margin-top: 20px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">Reviews</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <a href="#">Home</a> |
+    <a href="#">Products</a> |
+    <a href="#">Blog</a> |
+    <a href="#">Offers</a> |
+    <a href="#">About</a> |
+    <a href="#">FAQs</a> |
+    <a href="#">Services</a> |
+    <a href="#">Reviews</a> |
+    <a href="#">External Links</a> |
+    <a href="#">Contact</a>
+</div>
+
+<!-- CONTENT -->
+<div class="container">
+
+    <button class="write-btn">Write a Review</button>
+
+    <!-- REVIEW 1 -->
+    <div class="review">
+        <div class="stars">★★★★★</div>
+        <div class="review-title">“Great value for money”</div>
+        <div class="review-text">
+            Bought a refurbished PS5 and honestly couldn’t tell it wasn’t brand new.
+            Works perfectly and arrived quicker than expected. Definitely using
+            TechGizmoHub again.
+        </div>
+        <div class="helpful">👍 👎 Was this helpful?</div>
+    </div>
+
+    <!-- REVIEW 2 -->
+    <div class="review">
+        <div class="stars">★★★★☆</div>
+        <div class="review-title">“Solid service”</div>
+        <div class="review-text">
+            Ordered an iPhone and it came in really good condition. Only reason
+            I’m giving 4 stars is the box was a bit plain, but the phone itself is perfect.
+        </div>
+        <div class="helpful">👍 👎 Was this helpful?</div>
+    </div>
+
+    <!-- REVIEW 3 -->
+    <div class="review">
+        <div class="stars">★★★★★</div>
+        <div class="review-title">“Retro heaven”</div>
+        <div class="review-text">
+            Picked up a GameCube and it works like it’s 2003 again. Love the range
+            of older consoles on here — not many sites do it this well.
+        </div>
+        <div class="helpful">👍 👎 Was this helpful?</div>
+    </div>
+
+    <!-- REVIEW 4 -->
+    <div class="review">
+        <div class="stars">★★★★☆</div>
+        <div class="review-title">“Good but room for improvement”</div>
+        <div class="review-text">
+            Prices are decent and the site is easy to use. Delivery took a bit longer
+            than expected, but customer service kept me updated.
+        </div>
+        <div class="helpful">👍 👎 Was this helpful?</div>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer"></div>
+
+</body>
+</html>

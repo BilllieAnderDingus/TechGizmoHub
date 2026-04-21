@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Products Page</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #dcdcdc;
+    }
+
+    /* HEADER */
+    .header {
+        background-color: red;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+
+    /* SECTION TITLE */
+    .section-title {
+        font-size: 28px;
+        margin: 20px;
+        font-weight: bold;
+    }
+
+    /* PRODUCT GRID */
+    .products {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .product-card {
+        background-color: white;
+        border: 3px solid black;
+        width: 18%;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .product-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+    }
+
+    /* WARRANTY BADGE */
+    .badge {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: gold;
+        padding: 5px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    /* BUTTON */
+    .buy-btn {
+        margin-top: 10px;
+        padding: 10px 20px;
+        background-color: red;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .buy-btn:hover {
+        background-color: darkred;
+    }
+
+    /* DISCOVER SECTION */
+    .discover {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .categories {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 10px;
+    }
+
+    .category {
+        text-align: center;
+    }
+
+    .category img {
+        width: 120px;
+        height: 120px;
+        border: 3px solid black;
+        background-color: white;
+    }
+
+    /* FOOTER */
+    .footer {
+        background-color: black;
+        height: 60px;
+        margin-top: 20px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">Products</div>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <a href="#">Home</a> |
+    <a href="#">Products</a> |
+    <a href="#">Blog</a> |
+    <a href="#">Offers</a> |
+    <a href="#">About</a> |
+    <a href="#">FAQs</a> |
+    <a href="#">Services</a> |
+    <a href="#">Reviews</a> |
+    <a href="#">External Links</a> |
+    <a href="#">Contact</a>
+</div>
+
+<!-- RECOMMENDED -->
+<div class="section-title">Recommended For You:</div>
+
+<div class="products">
+
+    <div class="product-card">
+        <div class="badge">5 Year Warranty</div>
+        <img src="/assets/images/minecraf.jpg">
+        <button class="buy-btn">BUY</button>
+    </div>
+
+    <div class="product-card">
+        <div class="badge">5 Year Warranty</div>
+        <img src="/assets/images/xiaomi-17-b.jpg">
+        <button class="buy-btn">BUY</button>
+    </div>
+
+    <div class="product-card">
+        <div class="badge">5 Year Warranty</div>
+        <img src="/assets/images/spiderman.jpg">
+        <button class="buy-btn">BUY</button>
+    </div>
+
+    <div class="product-card">
+        <div class="badge">5 Year Warranty</div>
+        <img src="/assets/images/Fortnite_Gift_Card_Art-2.png">
+        <button class="buy-btn">BUY</button>
+    </div>
+
+    <div class="product-card">
+        <div class="badge">5 Year Warranty</div>
+        <img src="/assets/images/OIP (1).webp">
+        <button class="buy-btn">BUY</button>
+    </div>
+
+</div>
+
+<!-- DISCOVER MORE -->
+<div class="discover">
+    <div class="section-title">Discover More:</div>
+
+    <div class="categories">
+        <div class="category">
+            <img src="/assets/images/NGC_Gamecube.webp">
+            <p>Retro Tech</p>
+        </div>
+
+        <div class="category">
+            <img src="/assets/images/iPhone-17-Pro-Max-Orange-PNG.png">
+            <p>Mobile Devices</p>
+        </div>
+
+        <div class="category">
+            <img src="/assets/images/Laptop-PNG-Image-Transparent.png">
+            <p>Laptops</p>
+        </div>
+
+        <div class="category">
+            <img src="/assets/images/mario toy.jpg">
+            <p>Gifts</p>
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer"></div>
+
+</body>
+</html>
